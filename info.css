@@ -1,0 +1,245 @@
+.info-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.info-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  z-index: 10;
+  position: fixed;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #3d45aa;
+}
+.info-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  z-index: 15;
+  font-size: 32px;
+  align-self: center;
+  text-align: center;
+  font-family: "Helvetica";
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.info-navlink {
+  display: contents;
+}
+.info-image {
+  top: 8px;
+  left: 6px;
+  width: 100px;
+  height: 100px;
+  z-index: 17;
+  position: fixed;
+  align-self: center;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+.info-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+.info-image1 {
+  width: 100%;
+  z-index: 2;
+  object-fit: cover;
+  padding-top: 150px;
+}
+.info-text01 {
+  width: auto;
+  height: auto;
+  z-index: 2;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Helvetica";
+  font-weight: 400;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+.info-text02 {
+  z-index: 2;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Helvetica";
+  padding-bottom: 25px;
+}
+.info-text03 {
+  z-index: 2;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Helvetica";
+  padding-bottom: 25px;
+}
+.info-text04 {
+  z-index: 2;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Helvetica";
+  padding-bottom: 25px;
+}
+.info-text07 {
+  z-index: 2;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Helvetica";
+  padding-bottom: 25px;
+}
+.info-text10 {
+  width: auto;
+  height: auto;
+  z-index: 2;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Helvetica";
+  font-weight: 400;
+  margin-bottom: 25px;
+  text-decoration: underline;
+}
+.info-text11 {
+  width: auto;
+  height: auto;
+  z-index: 2;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Helvetica";
+  font-weight: 400;
+  text-decoration: underline;
+}
+@media(max-width: 1500px) {
+  .info-text {
+    color: rgb(255, 255, 255);
+    width: 70%;
+    font-size: 32px;
+    font-family: Helvetica;
+  }
+  .info-text02 {
+    font-size: 20px;
+    font-family: Helvetica;
+    padding-bottom: 25px;
+  }
+  .info-text03 {
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+  .info-text04 {
+    font-size: 20px;
+  }
+  .info-text05 {
+    text-transform: uppercase;
+  }
+  .info-text07 {
+    font-size: 20px;
+  }
+  .info-text08 {
+    text-transform: uppercase;
+  }
+  .info-text11 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Helvetica;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}
+@media(max-width: 1000px) {
+  .info-text {
+    font-size: 24px;
+  }
+  .info-text01 {
+    font-size: 18px;
+  }
+  .info-text02 {
+    font-size: 16px;
+  }
+  .info-text03 {
+    font-size: 16px;
+  }
+  .info-text04 {
+    font-size: 16px;
+  }
+  .info-text07 {
+    font-size: 16px;
+  }
+  .info-text10 {
+    font-size: 15px;
+  }
+  .info-text11 {
+    font-size: 15px;
+  }
+}
+@media(max-width: 600px) {
+
+  .info-text {
+    font-size: 10px;
+  }
+  .info-image {
+    top: 36px;
+    width: 40px;
+    height: 40px;
+  }
+  .info-text01 {
+    font-size: 14px;
+  }
+  .info-text02 {
+    font-size: 11px;
+  }
+  .info-text03 {
+    font-size: 11px;
+  }
+  .info-text04 {
+    font-size: 11px;
+  }
+  .info-text07 {
+    font-size: 11px;
+  }
+  .info-text10 {
+    font-size: 10px;
+  }
+  .info-text11 {
+    font-size: 10px;
+    font-style: normal;
+    font-family: Helvetica;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}
+@media(max-width: 320px) {
+  .info-text {
+    font-size: 10px;
+  }
+  .info-text01 {
+    font-size: 12px;
+  }
+  .info-text02 {
+    font-size: 9px;
+  }
+  .info-text03 {
+    font-size: 9px;
+  }
+  .info-text04 {
+    font-size: 9px;
+  }
+  .info-text07 {
+    font-size: 9px;
+  }
+  .info-text10 {
+    font-size: 8px;
+  }
+  .info-text11 {
+    font-size: 8px;
+  }
+}

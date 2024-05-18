@@ -1,0 +1,128 @@
+.guide-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.guide-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  z-index: 10;
+  position: fixed;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #3d45aa;
+}
+.guide-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  z-index: 15;
+  font-size: 32px;
+  align-self: center;
+  text-align: center;
+  font-family: "Helvetica";
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.guide-navlink {
+  display: contents;
+}
+.guide-image {
+  top: 8px;
+  left: 6px;
+  width: 100px;
+  height: 100px;
+  z-index: 17;
+  position: fixed;
+  align-self: center;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+.guide-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+.guide-text1 {
+  width: auto;
+  height: auto;
+  z-index: 2;
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Helvetica";
+  font-weight: 400;
+  padding-top: 150px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+.guide-text2 {
+  width: 60%;
+  z-index: 2;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Helvetica";
+  text-align: justify;
+}
+@media(max-width: 1500px) {
+  .guide-text {
+    color: rgb(255, 255, 255);
+    width: 70%;
+    font-size: 32px;
+    font-family: Helvetica;
+  }
+  .guide-text2 {
+    font-size: 30px;
+    font-family: Helvetica;
+    padding-bottom: 25px;
+  }
+}
+@media(max-width: 1000px) {
+  .guide-text {
+    font-size: 24px;
+  }
+  .guide-text1 {
+    font-size: 36px;
+  }
+  .guide-text2 {
+    font-size: 25px;
+  }
+}
+@media(max-width: 600px) {
+  .guide-text {
+    font-size: 10px;
+  }
+  .guide-image {
+    top: 36px;
+    width: 40px;
+    height: 40px;
+  }
+  .guide-text1 {
+    font-size: 30px;
+  }
+  .guide-text2 {
+    font-size: 15px;
+  }
+}
+@media(max-width: 320px) {
+  .guide-text {
+    font-size: 10px;
+  }
+  .guide-text1 {
+    font-size: 25px;
+  }
+  .guide-text2 {
+    font-size: 15px;
+    font-family: Helvetica;
+  }
+}
